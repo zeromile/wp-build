@@ -11,7 +11,7 @@ git pull mrc master
 git remote rm mrc
 git remote add origin git@github.com:USERNAME/wp-build.git <--- COPY THIS FROM YOUR REPO, YO
 git add .
-git commit -m “new version”
+git commit -m "new version"
 git push origin master
 ```
 
