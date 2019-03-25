@@ -58,6 +58,17 @@ define('DB_HOST', getenv('IP'));
 ```
 
 8. Start your server and click the link to visit. Add ```/wordpress``` at the end url to begin installation...like this:
-```https://wp-build-zeromile.c9users.io/wordpress```
+```sh
+https://wp-build-zeromile.c9users.io/wordpress
+```
 
 9. Follow the remaining install instructions until you are inside your new WordPress dashboard
+10. Pull in the template file we will be using:
+```sh
+curl -LOk https://github.com/html5blank/html5blank/archive/stable.zip
+```
+
+11. Upack the zip file:
+```sh
+unzip stable.zip -d wordpress/wp-content/themes
+```
