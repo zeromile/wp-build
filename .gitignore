@@ -1,7 +1,5 @@
-php.ini
 .c9
 .git
-.gitignore
 wordpress/*
 !wordpress/wp-content/
 wordpress/wp-content/*
