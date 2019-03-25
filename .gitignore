@@ -1,3 +1,11 @@
 php.ini
 .c9
 .git
+.gitignore
+wordpress/*
+!wordpress/wp-content/
+wordpress/wp-content/*
+!wordpress/wp-content/themes/
+!wordpress/wp-content/plugins/
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/html5blank-stable/
