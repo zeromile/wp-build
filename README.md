@@ -21,7 +21,7 @@ sudo mv /etc/apache2/envvars /etc/apache2/envvars.bak
 sudo apt-get remove libapache2-mod-php5 -y
 sudo apt-get install libapache2-mod-php7.0 -y
 sudo cp /etc/apache2/envvars.bak /etc/apache2/envvars
-sudo service restart apache2
+sudo restart service apache2
 ```
 
 5. Grab a newer (not the latest) version of WordPress by copying and pasting this into bash:
