@@ -9,10 +9,7 @@ git init
 git remote add mrc git@github.com:zeromile/wp-build.git
 git pull mrc master
 git remote rm mrc
-git remote add origin git@github.com:USERNAME/wp-build.git <--- COPY THIS FROM YOUR REPO, YO
-git add .
-git commit -m "new version"
-git push origin master
+git remote add origin git@github.com:USERNAME/wp-build.git   <--- COPY THIS FROM YOUR REPO, YO
 ```
 
 4. Update your PHP version and install some extra stuff we'll need. Copy and paste each of these ONE LINE AT A TIME:
@@ -24,6 +21,7 @@ sudo mv /etc/apache2/envvars /etc/apache2/envvars.bak
 sudo apt-get remove libapache2-mod-php5 -y
 sudo apt-get install libapache2-mod-php7.0 -y
 sudo cp /etc/apache2/envvars.bak /etc/apache2/envvars
+sudo restart service apache2
 ```
 
 5. Grab a newer (not the latest) version of WordPress by copying and pasting this into bash:
