@@ -29,9 +29,10 @@ sudo service restart apache2
 curl -O https://wordpress.org/wordpress-4.8.9.zip
 ```
 
-6. Unzip the WordPress package by copying and pasting this into bash:
+6. Unzip the WordPress package and then delete the zip file by copying and pasting each line into bash:
 ```sh
 unzip wordpress-4.8.9.zip
+rm wordpress-4.8.9.zip
 ```
 
 7. Install PHPMyAdmin package by copying and pasting this into bash:
@@ -60,9 +61,10 @@ define('DB_HOST', getenv('IP'));
 curl -LOk https://github.com/html5blank/html5blank/archive/stable.zip
 ```
 
-11. Upack the zip file by copying and pasting this into bash:
+11. Upack the zip file and then delete it by copying and pasting each line into bash:
 ```sh
 unzip stable.zip -d wordpress/wp-content/themes
+rm stable.zip
 ```
 12. Start your server and click the link to visit. Add ```/wordpress``` at the end url to begin installation...like this:
 ```sh
