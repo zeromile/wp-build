@@ -72,3 +72,7 @@ https://wp-build-zeromile.c9users.io/wordpress
 ```
 13. Follow the remaining install instructions until you are inside your new WordPress dashboard
 14. Go to Appearance->Themes and activate the HTML5 Blank theme
+15. Remove the other themes by returning to the bash window and copying and pasting this line:
+```sh
+rm -r wordpress/wp-content/themes/twenty*
+```
