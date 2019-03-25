@@ -71,3 +71,4 @@ unzip stable.zip -d wordpress/wp-content/themes
 https://wp-build-zeromile.c9users.io/wordpress
 ```
 13. Follow the remaining install instructions until you are inside your new WordPress dashboard
+14. Go to Appearance->Themes and activate the HTML5 Blank theme
