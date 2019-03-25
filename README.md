@@ -2,7 +2,7 @@
 Code based on https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/
 
 1. Open your wp-build project in C9.io...__DO NOT START THE SERVER__
-2. Delete all local files and folders __EXCEPT__ ```php.ini``` and the ```.c9``` folder. 
+2. Delete all local files and folders __EXCEPT__ the ```.c9``` folder. 
 3. Then Copy and paste each of these ONE LINE AT A TIME in your bash terminal:
 ```sh
 git init
