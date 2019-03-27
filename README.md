@@ -10,6 +10,7 @@ git remote add mrc git@github.com:zeromile/wp-build.git
 git pull mrc master
 git remote rm mrc
 git remote add origin git@github.com:USERNAME/wp-build.git   <--- COPY THIS FROM YOUR REPO, YO
+git checkout -b monday
 ```
 
 4. Update your PHP version and install some extra stuff we'll need. Copy and paste each of these ONE LINE AT A TIME:
