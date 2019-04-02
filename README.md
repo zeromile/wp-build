@@ -1,28 +1,13 @@
-# wp-build - Thursday#
-- Checkout new branch for Thursday, add, commit, and push
+# wp-build - Monday Week 2#
+- Checkout new branch for Monday Week 2, add, commit, and push
 ```sh
-git checkout -b thursday
+git checkout -b monday-wk2
 git add .
-git commit -m "start of Thursday"
-git push origin thursday
+git commit -m "start of Monday - Week 2"
+git push origin monday-wk2
 ```
-- Google Bootstrap CDN find the latest link to the min CSS file. Copy it to paste into the next step.
-- In C9 editor open the theme ```functions.php``` file to the html5blank styles function, line 121
-```sh
-wp_enqueue_style('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'); 
-```
+- Using Google and W3Schools figure out how to make the following changes to your page:
+1. Completely remove the html5 logo at the top of the page
+2. Add a background image to the body using this link ```http://lorempixel.com/g/800/800``` that completely covers the entire page
+3. Give your ```container``` a background color of white, rounded corners, and padding
 
-- Open ```style.css``` in c9 editor and copy and paste all css from your local ```main.css``` file
-
-- Open ```index.html``` in c9 editor and copy everything from after the header div to just before the footer div
-
-- In WP open home page, switch to text view, paste everything you copied
-
-- Open ```header.php``` in C9 and change class to ```container``` for the wrapper
-- In ```header.php``` change ```<header>``` tag to ```<div>``` 
-- In ```header.php``` update ```class="header clear"``` to ```class="header clearfix"```
-- In ```header.php``` remove ```role="banner"```
-- Open ```page.php``` and //comment out side bar (at the bottom) and comments and edit post link (middle)
-- Remove the h1 stuff from ```page.php``` and paste into ```header.php```
-- Remove ```<nav>``` ```class``` and ```role``` from ```page.php```
-- Update ```'menu_class' => 'nav nav-pills float-right'```, in ```functions.php``` (should be line 75)
