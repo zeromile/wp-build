@@ -1,4 +1,4 @@
-# wp-build - Monday Week 2#
+# wp-build - Tuesday Week 2#
 - Checkout new branch for Monday Week 2, add, commit, and push
 ```sh
 git checkout -b monday-wk2
