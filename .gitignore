@@ -1,9 +1,2 @@
 .c9
 .git
-wordpress/*
-!wordpress/wp-content/
-wordpress/wp-content/*
-!wordpress/wp-content/themes/
-!wordpress/wp-content/plugins/
-wordpress/wp-content/themes/*
-!wordpress/wp-content/themes/html5blank-stable/
